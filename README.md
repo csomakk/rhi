@@ -6,12 +6,6 @@ Your task:
 Two dev teams have developed a service each, that needs talking to eachother. We'd like you to dockerize the build and running of your selected service. One service is written in Node.js and the other in Java. Once this has been completed, we'll need to move them to a kubernetes cluster, and we'll need to plan for that.
 
 
-
-* step 0 for interviewer) 
-!!! delete java-http-server-undertow/Dockerfile !!!
-!!! delete express/Dockerfile !!!
-pass zip to candidate without `.git`
-
 * step 1) 
 chose either the Java (a) or the Node.js (b) project to build and run in Docker / minikube.
 
@@ -24,6 +18,8 @@ Build the node js app `express` with Docker. its node 16+. Runs on port `3000`
 hit `http://localhost:3000/data` 
 
 * step 2) 
+you'll recieve the solution of the alternative half of step 1)
+
 connect Express to the Java Server - use `JAVA_APP` variable to identify java server address..
 `http://localhost:3000/fromJava` to verify
 
