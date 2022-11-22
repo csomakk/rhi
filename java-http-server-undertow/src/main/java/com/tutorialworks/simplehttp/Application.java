@@ -35,7 +35,7 @@ public class Application {
                     exchange.getResponseSender()
                             .send("<html>" +
                                     "<body>" +
-                                    "<h1>Hello, nice progress on the Bally Interview!</h1>" +
+                                    "<h1>Hello, nice progress on the Interview!</h1>" +
                                     "<p>time is " + dtf.format(now) + "</p>" +         
                                     "<p>path is " +  exchange.getRelativePath()  + "</p>" +                                                                 
                                     "</body>" +
