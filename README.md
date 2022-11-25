@@ -21,7 +21,7 @@ hit `http://localhost:3000/data`
 you'll recieve the solution of the alternative half of step 1)
 
 connect Express to the Java Server - use `JAVA_APP` variable to identify java server address..
-`http://localhost:3000/fromJava` to verify
+`http://localhost:3000/fromjava` to verify
 
 * step 3) 
 explain how would you move this into a cloud infrastructure of your choice, with potential redundancy.
