@@ -7,7 +7,7 @@ Two dev teams have developed a service each, that needs communicating to eachoth
 
 
 * step 1) 
-chose either the Java (a) or the TypeScript+Node.js (b) project to build and run in Docker / minikube.
+chose either the Java (a) or the TypeScript+Node.js (b) project to build and run in Docker / k8s.
 
     * a) Java - 
 Build java server `java-http-server-undertow` with Docker. its Java 17, with Maven. Runs on port `8080`.
@@ -27,4 +27,4 @@ connect Express to the Java Server - use `JAVA_APP` variable to identify java se
 explain how would you move this into a cloud infrastructure of your choice, with potential redundancy.
 
 * step 4) 
-move the 2 services to a minikube node if you have a suitable setup ready. Other tools like Helm can be used.
+move the 2 services to a minikube cluster (any other setup like rancher, k3s, etc can be used too) if you have a suitable setup ready. Other tools like Helm can be used.
