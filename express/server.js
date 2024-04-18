@@ -12,7 +12,7 @@ app.get("/", function (req, res) {
 
 app.get("/data", function (req, res) {
     res.json({
-        date: Date.now()
+        date: 'wrong server'
     });
   });
 
@@ -20,7 +20,7 @@ app.get("/fromjava", async function (req, res) {
     const response = await fetch(`http://${java}:8080/data`);
     const responseJson = await response.json();
     res.json({
-        dataInJavaApp: responseJson.data.replace('202', '200002')
+        dataInJavaApp: responseJson.data.replace('202', 'wrong server')
     });
 });
 

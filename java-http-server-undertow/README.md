@@ -10,3 +10,5 @@ To run this demo:
     
 `java -jar target/java-http-server-undertow-1.0-SNAPSHOT-jar-with-dependencies.jar`
     
+runs on port 8080
+endpoint is /data
