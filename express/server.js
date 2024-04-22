@@ -7,7 +7,9 @@ const java = process.env.JAVA_APP || "127.0.0.1";
 
 
 app.get("/", function (req, res) {
- 
+   res.json({
+    date: 'wrong server'
+  }); 
 });
 
 app.get("/data", function (req, res) {
