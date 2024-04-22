@@ -20,7 +20,7 @@ hit `http://localhost:3000/data` to verify
 * step 2) 
 you'll recieve the solution of the alternative half of step 1)
 
-connect Express to the Java Server - use `JAVA_APP` variable to identify java server address..
+connect Express to the Java Server - use `JAVA_APP` variable to define java server address..
 `http://localhost:3000/fromjava` to verify
 
 * step 3) 
