@@ -14,7 +14,7 @@ Build java server `java-http-server-undertow` with Docker. its Java 17, with Mav
 hit `http://localhost:8080/data` to verify
 
     * b) Node.js - 
-Build the node js app `express` with Docker. its node 16+. Runs on port `3000`
+Build the node js app `express` with Docker. its node 20+. Runs on port `3000`
 hit `http://localhost:3000/data` to verify
 
 * step 2) 
