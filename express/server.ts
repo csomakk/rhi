@@ -2,7 +2,6 @@ import express, { Request, Response } from "express";
 
 const app = express();
 const port = 3000;
-//const fetch = (...args: [any]) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 const java = process.env.JAVA_APP || "127.0.0.1";
 
 app.get("/", function (req: Request, res: Response) {
